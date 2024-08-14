@@ -48,10 +48,14 @@ If the output is the following you are good to go..
 
 Install bWAPP with Docker
 
-```sudo docker run -d -p 8090:80 hackersploit/bwapp-docker```
+```
+sudo apt install docker.io
+sudo docker run -d -p 8090:80 hackersploit/bwapp-docker
+```
 
 This will run on the following link.
 http://localhost:8090/
+http://localhost:8090/install.php
 
 Install and register as a new user using the following credentials
 
@@ -74,3 +78,9 @@ Crawling for bWAPP and WordPress
 python3 crawl_bwapp.py
 python3 crawl_wp.py
 ```
+
+Tested and run on the following OS
+
+Ubuntu 22.04.4 LTS
+Kali Linux 2023.4
+Linux Mint 21.1
