@@ -1,0 +1,43 @@
+*** Cross Site Scripting Prevention Tactics ***
+
+- Try to filter input
+Where the input of the user is received, filter as rigorously as possible based on valid input.
+
+- Encode data
+The output must be encoded to avoid being interpreted as is. This might apply on URL, HTML, Javascript.
+
+- Content Security Policy (CSP)
+As a last resort, someone can use CSP to lessen the seriousness of any Cross Site Scripting vulnerabilities.
+
+- Usage of right response headers
+HTTP responses should not contain Javascript and HTML code, thus someone can use the 'Content-Type'
+headers, so Cross Site Scripting is reduced to its minimum.
+
+*** Examples ***
+
+- Encoding output regarding HTML contexts
+
+<p> $iamnotsafe </p>
+<p> <script>alert'pwned'</script> </p>
+.textContent attribute converts HTML entities
+
+>    &gt;
+<    &lt;
+'    &#x27;
+"    &quot;
+&    &amp;
+
+- Encoding output regarding CSS contexts
+
+Variables must only live in a CSS property value. All other locations are unsafe.
+<style> p { property : "$iamsafe"; } </style>
+<p style="property : $iamnotsafe">Danger!</p>
+
+- Encoding output regarding URL contexts
+
+<a href="http://example.com?test=$iamnotsafe">link example</a> - GET request
+Fixing: link = "https://example.com?test=" + urlencode(parameter)
+
+
+
+

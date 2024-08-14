@@ -1,0 +1,76 @@
+===============================
+payloads.txt [Done]
+Containing the XSS exploits.
+===============================
+
+===============================
+load.txt [Done]
+Containing more XSS exploits.
+===============================
+
+===============================
+bwapp.py [Done]
+Automatically exploiting XSS vulnerabilities
+from a predefined list on bWAPP
+using selenium, chromedriver.
+===============================
+
+===============================
+crawl_wp.py [Done]
+Crawling links from Wordpress / Generic Website
+===============================
+
+===============================
+crawl_bwapp.py [Done]
+Crawling links from bWAPP
+===============================
+
+===============================
+scanning.py [Almost Done]
+[+] Need to pass url as input
+===============================
+
+===============================
+xssel.py [Done]
+python3 xssel.py -u "https://sudo.co.il/xss/level0.php?email={xss}#" -p load.txt
+python3 xssel.py -l "http://www.sudo.co.il/xss/level0.php" -p load.txt
+python3 xssel.py -w "http://localhost:9003/xss3/" -p load.txt -d "name=zeroday&submit=Submit+Query"
+Find suspicious exploitable tags in source code
+Find Possible vulnerable url in GET request
+Return type of form, status code, redirect url if present
+Return XSS exploits, count, success ratio
+Exploit target based on POST request supplied
+Exploit http://www.sudo.co.il/xss/
+Exploit https://hub.docker.com/r/moeinfatehi/xss_vulnerability_challenges/
+===============================
+
+===============================
+https://sudo.co.il/xss
+https://sudo.co.il/xss/level0.php
+https://sudo.co.il/xss/level1.php
+https://sudo.co.il/xss/level2.php
+https://sudo.co.il/xss/level3.php
+https://sudo.co.il/xss/level4.php
+https://sudo.co.il/xss/level5-1.php
+https://sudo.co.il/xss/level5-2.php
+https://sudo.co.il/xss/level6.php
+https://sudo.co.il/xss/level8.php
+===============================
+
+===============================
+moeinfatehi/xss_vulnerability_challenges
+http://localhost:9003/xss1/
+http://localhost:9003/xss2/
+http://localhost:9003/xss3/
+http://localhost:9003/xss4/
+http://localhost:9003/xss5/
+http://localhost:9003/xss6/
+http://localhost:9003/xss7/
+http://localhost:9003/xss8/
+===============================
+
+===============================
+WordPress (crawl_wp.py + testing forms)
+http://test00.local/
+http://test01.local/
+===============================
