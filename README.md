@@ -8,13 +8,17 @@ Install all necessary modules
 
 Install Google Chrome for Linux (if you already do not have)
 
-```wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb```
-```sudo apt install ./google-chrome-stable_current_amd64.deb```
+```
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+```
 
 You can run Google Chrome and find it's version
 
-```google-chrome --no-sandbox```
-```google-chrome --version```
+```
+google-chrome --no-sandbox
+google-chrome --version
+```
 
 Download chromedriver
 
@@ -26,8 +30,10 @@ chromedriver	linux64	https://storage.googleapis.com/chrome-for-testing-public/12
 
 Unzip the file and copy the chromedriver to the following location.
 
-```sudo chmod +x chromedriver```
-```sudo mv -f chromedriver /usr/local/bin/chromedriver```
+```
+sudo chmod +x chromedriver
+sudo mv -f chromedriver /usr/local/bin/chromedriver
+```
 
 You can make sure that the process is complete by running
 
