@@ -328,6 +328,14 @@ else:
 
 
 def post_xss(links):
+
+    # Login Area [bWAPP]
+    driver.get(f'http://localhost:8090/login.php')
+    username = driver.find_element(By.XPATH, "//input[@type='text']")
+    username.send_keys("admin")
+    password = driver.find_element(By.NAME, "password")
+    password.send_keys("letmein" + Keys.ENTER)
+
     data = {}
     # print(post_data)
 
@@ -347,7 +355,13 @@ def post_xss(links):
             EC.presence_of_element_located((By.NAME, next(k for i, (k, v) in enumerate(data.items()) if i % 2 == 0)))
         )
         search_form.send_keys(f"{line.strip()}")
-        submit_button = driver.find_element(By.XPATH, "//input[@type='submit']")
+
+        inputs_text = driver.find_elements(By.XPATH, "//input[@type='text']")
+        if len(inputs_text) > 1:
+            second_field_text = inputs_text[1]
+            second_field_text.send_keys(f"{line.strip()}")
+
+        submit_button = driver.find_element(By.XPATH, "//button[@type='submit']")
         submit_button.click()
         try:
             WebDriverWait(driver, 1).until(EC.alert_is_present())
